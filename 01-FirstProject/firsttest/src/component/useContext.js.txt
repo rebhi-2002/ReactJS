@@ -1,0 +1,160 @@
+===============================================================================================
+                        ** [useContext, ContextApi Part1 & Part2] **
+===============================================================================================
+
+(1) => **useContext.js** [src\component\useContext.js]:
+-------------------------------------------------------
+
+import React, { createContext, useState } from "react";
+
+// 1- Create Context: [إنشاء مخزن جديد]
+const ColorContext = createContext();
+
+//* context ممكن أعمل أكثر من:
+// - context عاملو بيانات login لما يعمل user يعني ال user لبيانات ال context ممكن نعمل
+// - [const { data, changeData } = useContext(ColorContext);] عن طريق application لأي حاجة تانية انا عاوزها أخزن الداتا وأقدر أوصلها من أي مكان في ال context و
+
+// 2- Create Provider:(مزود) [بتاعي application على شان يظهر في أي مكان في ال]
+const UseContextProvider = ({ children }) => {
+  // { children }:
+  // إنشرحت Props في فيديو ال
+  // موجود كلو جوا application لأنو ال index.js حطيتو جوا ال ،<UseContextProvider></UseContextProvider> <= appliation في الخطوة رقم 4 عملت ال
+  // <UseContextProvider></UseContextProvider> تاني انا عامله يلي هو component جوا  render بدي اعمل الهم component ف بالتالي انا عندي مجموعة
+  // <ColorContext.Provider value="white">{children}</ColorContext.Provider> <= render {children} ف انا بقله children ف لازم أستخدم طريقة ال
+  // value="white" وخليها توصل ل render إعمللها Provider (<ColorContext.Provider value="white">) يعني أي حاجة هتجيلك جوا ال
+  // بالزبط props يعني انا كده زي لكني عملت
+  // ColorContext عن طريق value="white" هتوصل ل {children} في أي حاجة جوا value="white" عملت قيمة
+  // Context API العملية دي كلها إسمها ،API لل created for the context كدا أنا عملت
+
+  // 6- Update Data in Context:
+
+  /* const [data, setState] = useState("white");
+  const changeData = (color) => {
+    setState(color);
+  }; */
+  const [data, setState] = useState({ id: "1", name: "mahmoud" });
+  const changeData = (id, name) => {
+    // setState({ id: id, name: name }); // id:id => id = id from input user // name:name => name = name from input user
+    setState({ id, name }); // In Modern JavaScript.
+  };
+
+  return (
+    <div>
+      {/* Provider Method built-in */}
+      {/* value="white": Prop can be take any value Ex: object{}, array[], ... */}
+      {/* value="": application بخزن فيها الداتا، الداتا هادي يلي خزنتها بقدر أوصلها من أي مكان في ال */}
+      {/* <ColorContext.Provider value="red"> */}
+      <ColorContext.Provider value={{ data, changeData }}>
+        {children}
+        {/* render ييجي جوا هين ينعمل إلو component ف عملت هيك على شان أي children تاني يسمى ال component وعلى شان أحط جواه component يعني بعمل ،render ييجي ينعمل إلو component على شان أي */}
+        {/*
+          Ex.:
+            <UseContextProvider>
+              <App />
+            </UseContextProvider>
+        */}
+      </ColorContext.Provider>
+    </div>
+  );
+};
+
+// 3- Export Context To Use, Provider To Wrap All Component:
+export { UseContextProvider, ColorContext };
+// * export UseContextProvider: جواه Application على شان أحط كل ال
+// * export ColorContext: value="white" على شان أقدر من خلاله أوصل للداتا دي
+
+===============================================================================================
+
+(2) => **index.js** [src\index.js]:
+-----------------------------------
+
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import { UseContextProvider } from "./component/useContext";
+
+// 4- Wrap All App With Provider: [يعني div كأنه ]
+ReactDOM.render(
+  <UseContextProvider>
+    <App />
+  </UseContextProvider>,
+  document.getElementById("root")
+);
+
+===============================================================================================
+
+(3) => **App.js** [src\App.js]:
+-------------------------------
+
+import React, { useContext } from "react";
+import { ColorContext } from "./component/useContext";
+import UseRefExample from "./component/useRefExample";
+
+const App = () => {
+  // 5- Use Context:
+
+  // const data = useContext(ColorContext); // value="white" عاوز أستخدم الداتا يلي خزنتها دي
+
+  // useContext(ColorContext): Hook built-in
+  // useContext(ContextAPI): value="red" بترجعلي القيمة يلي خزنتها جواه يلي هي [const ColorContext = createContext();] يلي أنا أنشاته ContextAPI عبارة عن parameter بتوخذ useContext
+
+  // const { data, changeData } = useContext(ColorContext); // { data, changeData } <= object ف هستقبلو في  value={{ data, changeData }} <= object لأني مخزنو في
+  // changeData("green");
+  const { data } = useContext(ColorContext);
+
+  return (
+    <div>
+      {/* {data} */}
+      {/*
+        :تاني أعمل نفس الحركة وأوصلها component بقدر من أي
+        - const data = useContext(ColorContext);
+        - {data}
+      */}
+      {data.id} {/*  */} {data.name}
+      <UseRefExample />
+    </div>
+  );
+};
+
+export default App;
+
+===============================================================================================
+
+(application ممكن نعمل الكلام ده في أي مكان في ال)
+
+(4) => **useRefExample.js** [src\component\useRefExample.js]:
+-------------------------------------------------------------
+
+import React, { useRef, useContext } from "react";
+import { ColorContext } from "./useContext";
+
+const UseRefExample = () => {
+  // const { data, changeData } = useContext(ColorContext);
+  const { changeData } = useContext(ColorContext);
+
+  const valueInput = useRef(null);
+  const focus = () => {
+    valueInput.current.focus();
+    console.log(valueInput.current.value);
+    // changeData(valueInput.current.value);
+    // changeData("5", valueInput.current.value); // { id, name }
+    changeData(Math.random(), valueInput.current.value);
+  };
+
+  // const data = useContext(ColorContext); // بيوصلني للقيمة يلي أنا مخزنها
+  // (App.js & useRefExample.js) ما بين Props تاني من غير ما أعمل component بقدر أوصلها من أي App.js دي يلي أنا وصلتلها من ال data ال
+
+  return (
+    <div>
+      <input type="text" ref={valueInput} />
+      <button onClick={focus}>Foucs</button>
+    </div>
+  );
+};
+
+export default UseRefExample;
+
+===============================================================================================
+
