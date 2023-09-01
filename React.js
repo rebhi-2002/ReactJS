@@ -407,6 +407,78 @@ Happy hacking!
 // PS D:\مجلد جديد\React\03-QA\q-a> npm install --save react-toastify
 
 // PS D:\مجلد جديد\React\04-Menu> npx create-react-app menu
+// PS D:\مجلد جديد\React\04-Menu\menu> npm install react-reveal --save
+//              => npm install react-reveal --force
+//                            **OR:**
+//          => npm install react-reveal --legacy-peer-deps
+
+/*
+ * PS D:\مجلد جديد\React\04-Menu\menu> npm install react-reveal --save
+ * npm ERR! code ERESOLVE
+ * npm ERR! ERESOLVE unable to resolve dependency tree
+ * npm ERR!
+ * npm ERR! While resolving: menu@0.1.0
+ * npm ERR! Found: react@18.2.0
+ * npm ERR! node_modules/react
+ * npm ERR!   react@"^18.2.0" from the root project
+ * npm ERR!
+ * npm ERR! Could not resolve dependency:
+ * npm ERR! peer react@"^15.3.0 || ^16.0.0" from react-reveal@1.2.2
+ * npm ERR! node_modules/react-reveal
+ * npm ERR!   react-reveal@"*" from the root project
+ * npm ERR!
+ * npm ERR! Fix the upstream dependency conflict, or retry
+ * npm ERR! this command with --force or --legacy-peer-deps
+ * npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+ * npm ERR!
+ * npm ERR!
+ * npm ERR! For a full report see:
+ * npm ERR! C:\Users\Subeh\AppData\Local\npm-cache\_logs\2023-09-01T02_52_01_122Z-eresolve-report.txt
+ *
+ * npm ERR! A complete log of this run can be found in: C:\Users\Subeh\AppData\Local\npm-cache\_logs\2023-09-01T02_52_01_122Z-debug-0.log
+ *
+ * ======================================================================================================================================
+ *
+ * PS D:\مجلد جديد\React\04-Menu\menu> npm install react-reveal --legacy-peer-deps
+ *
+ * added 1 package, removed 9 packages, and audited 1521 packages in 5s
+ *
+ * 247 packages are looking for funding
+ *   run `npm fund` for details
+ *
+ * 6 high severity vulnerabilities
+ *
+ * To address all issues (including breaking changes), run:
+ *   npm audit fix --force
+ *
+ * Run `npm audit` for details.
+ * PS D:\مجلد جديد\React\04-Menu\menu>
+ * ======================================================================================================================================
+ */
+
+// * https://legacy.reactjs.org/docs/legacy-context.html
+// * https://legacy.reactjs.org/blog/2018/03/27/update-on-async-rendering.html
+// * https://legacy.reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html
+
+/*
+ * PS D:\مجلد جديد\React\04-Menu\menu> npx react-codemod rename-unsafe-lifecycles
+ * Need to install the following packages:
+ * react-codemod@5.4.3
+ * Ok to proceed? (y) Y
+ * npm WARN deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+ * npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+ * npm WARN deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+ * npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+ * npm WARN deprecated cross-spawn-async@2.2.5: cross-spawn no longer requires a build toolchain, use it instead
+ * Thank you for using react-codemods!
+ *
+ * But before we continue, please stash or commit your git changes.
+ *
+ * You may use the --force flag to override this safety check.
+ * PS D:\مجلد جديد\React\04-Menu\menu>
+ */
+
+// PS D:\مجلد جديد\React\05-Movies DB> npx create-react-app movies-starter
 
 /*
 
