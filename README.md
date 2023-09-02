@@ -257,4 +257,4 @@ If you'd like to contribute to the development of the ReactJS project, please op
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Created by: [**Rebhi Ibrahim**](rebheibrahim@gmail.com)
+Created by: [**Rebhi Ibrahim**](mailto:rebheibrahim@gmail.com)
