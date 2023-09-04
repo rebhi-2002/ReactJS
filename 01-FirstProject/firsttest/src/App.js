@@ -308,7 +308,7 @@ const App = () => {
     //   <BrowserRouter>
     //     {/* <Routes></Routes> (In older versions, it was named:)=> <Switch></Switch> */}
     //     <Routes>
-    //       {/* component={} (In older versions, it was named:)=> component={} */}
+    //       {/* element={} (In older versions, it was named:)=> component={} */}
     //       {/* بس في التحديث الجديد مش هتأثر في حاجة لأنو التحديث الجديد عالج المشكلة يلي كانت موجودة ،exact ف كان حل المشكلة path="/" <= home لأنه ال home وال content كان بظهر ال /content في الإصدارات القديمة 5 وما قبل كان لما يحط في الرابط */}
     //       {/* <Route path="/" exact element={<Home />} /> */}
     //       <Route path="/" element={<Home />} />
