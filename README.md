@@ -1,3 +1,8 @@
+<!--
+![React Icon](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/320px-React-icon.svg.png)
+![Redux Icon](https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Redux.png/320px-Redux.png)
+-->
+
 <div align="center">
   <img width="50%" src="https://github.com/rebhi-2002/ReactJS/blob/main/assets/ReactJS-unscreen.gif" alt="ReactJS Logo" />
 </div>
@@ -17,7 +22,7 @@
 
 # :rocket: React.js and JavaScript Mastery: Your Comprehensive Learning Journey
 
-### Important Notice for Users:
+### Important Notice for Users
 
 This content is directed towards individuals who possess a broad knowledge and prior experience in web development. It is assumed that you are proficient in handling technologies such as HTML 5, CSS 3, Bootstrap +4, and JavaScript with ease before embarking on exploring the content here. If you do not have this experience yet, we strongly advise learning these fundamentals first and acquiring the necessary expertise.
 
@@ -98,7 +103,7 @@ yarn install
 
 Now you can start development and explore the ReactJS project. Use the examples and files within the project to understand how to use ReactJS to build dynamic user interface applications.
 
-## 01-Modern JavaScript:
+## 01-Modern JavaScript
 
 This section covers modern JavaScript concepts and techniques. Each topic is accompanied by code examples available in the GitHub repository.
 
@@ -143,7 +148,7 @@ To get started, you can access the code examples for the first topic, [01-Var, L
 
 Feel free to explore and learn from these code examples to deepen your understanding of modern JavaScript concepts.
 
-## 02-First React Project:
+## 02-First React Project
 
 Welcome to the "🚀 ReactJS (Getting Started)" file!
 
@@ -163,7 +168,7 @@ Feel free to explore the lessons and code samples in this file. It's a great pla
 
 This file is part of the larger ReactJS project. You can explore more lessons and projects in the repository.
 
-## 03-React Fundamentals:
+## 03-React Fundamentals
 
 Welcome to the "🚀 First React Project/firsttest" folder! along with the "React.js" file.
 
@@ -213,13 +218,13 @@ In this section, you'll find code and lessons related to the fundamentals of Rea
 
 Feel free to explore the lessons and code samples in this folder. Happy learning!
 
-## 04-Basic Projects:
+## 04-Basic Projects
 
 ### 1. [📅 Dates Reminder Project](https://github.com/rebhi-2002/ReactJS/tree/main/02-Dates%20Reminder)
 
 - [**Desktop View**](<https://github.com/rebhi-2002/ReactJS/blob/main/assets/Dates%20Reminder%20(Desktop).png>) &nbsp; | &nbsp; [**Mobile View**](<https://github.com/rebhi-2002/ReactJS/blob/main/assets/Dates%20Reminder%20(Mobile).png>)
 
-#### Before you get started, make sure to install the necessary npm packages for this project:
+#### Before you get started, make sure to install the necessary npm packages for this project
 
 1. Open your terminal.
 2. Navigate to the project directory for the "ReactJS/02-Dates Reminder/dates-reminder"
@@ -231,7 +236,7 @@ This will download and install all the necessary dependencies for the project. O
 
 - [**Desktop View**](<https://github.com/rebhi-2002/ReactJS/blob/main/assets/QA%20(Desktop).png>) &nbsp; | &nbsp; [**Mobile View**](<https://github.com/rebhi-2002/ReactJS/blob/main/assets/QA%20(Mobile).png>)
 
-#### To use the "Question and Answer Project," follow these steps:
+#### To use the "Question and Answer Project," follow these steps
 
 1. Open your terminal.
 2. Navigate to the project directory for the "ReactJS/03-QA/q-a"
@@ -243,7 +248,7 @@ This will download and install all the necessary dependencies for the project.
 
 - [**Desktop View**](<https://github.com/rebhi-2002/ReactJS/blob/main/assets/Menu%20(Desktop).png>) &nbsp; | &nbsp; [**Mobile View**](<https://github.com/rebhi-2002/ReactJS/blob/main/assets/Menu%20(Mobile).png>)
 
-#### For the "Menu Project," ensure that you have the required npm packages installed:
+#### For the "Menu Project," ensure that you have the required npm packages installed
 
 1. Open your terminal.
 2. Navigate to the project directory for the "ReactJS/04-Menu/menu"
@@ -257,7 +262,7 @@ Remember to repeat these steps for each project when you want to use them. This 
 
 - [**Desktop View**](<https://github.com/rebhi-2002/ReactJS/blob/main/assets/Movies%20DB%20(Desktop).png>) &nbsp; | &nbsp; [**Mobile View**](<https://github.com/rebhi-2002/ReactJS/blob/main/assets/Movies%20DB%20(Mobile).png>) &nbsp; | &nbsp; [**Movie Details Page**](<https://github.com/rebhi-2002/ReactJS/blob/main/assets/Movies%20DB%20(Details).png>)
 
-#### To set up the "Movies DB Project," follow these steps:
+#### To set up the "Movies DB Project," follow these steps
 
 1. Open your terminal.
 2. Navigate to the project directory for the "ReactJS/05-Movies DB/movies-starter"
@@ -276,6 +281,28 @@ This will start the web application and allow you to open it in your default web
 Now you can start exploring and working on the "Movies DB Project." Be sure to repeat these steps for each project when you want to use them to ensure that you have all the necessary dependencies installed and can run the projects smoothly.
 
 ## 05-React Redux From Scratch: ⏳
+
+<div align="center">
+  <img align="center" width="30%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Redux.png/320px-Redux.png" alt="Redux Icon" />
+</div>
+
+<br />
+
+<p align="center">
+  1: <img align="center" src="https://github.com/rebhi-2002/ReactJS/blob/main/assets/01-Redux_img.png" alt="" width="47%" height="250" />
+  2: <img align="center" src="https://github.com/rebhi-2002/ReactJS/blob/main/assets/02-Redux_img.png" alt="" width="47%" height="250" />
+  <br /><br />
+  3: <img align="center" src="https://github.com/rebhi-2002/ReactJS/blob/main/assets/03-Redux_img.png" alt="" width="47%" height="250" />
+  4: <img align="center" src="https://github.com/rebhi-2002/ReactJS/blob/main/assets/04-Redux_img.png" alt="" width="47%" height="250" />
+  <br /><br />
+  5: <img align="center" src="https://github.com/rebhi-2002/ReactJS/blob/main/assets/05-Redux_img.png" alt="" width="47%" height="250" />
+  6: <img align="center" src="https://github.com/rebhi-2002/ReactJS/blob/main/assets/06-Redux_img.png" alt="" width="47%" height="250" />
+  <br /><br />
+  7: <img align="center" src="https://github.com/rebhi-2002/ReactJS/blob/main/assets/07-Redux_img.png" alt="" width="47%" height="250" />
+  8: <img align="center" src="https://github.com/rebhi-2002/ReactJS/blob/main/assets/08-Redux_img.png" alt="" width="47%" height="250" />
+</p>
+
+<br />
 
 ## Contribution
 
