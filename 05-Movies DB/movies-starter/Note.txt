@@ -1,0 +1,86 @@
+PS D:\مجلد جديد\React\05-Movies DB> npx create-react-app movies-starter
+
+Creating a new React app in D:\مجلد جديد\React\05-Movies DB\movies-starter.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1441 packages in 4m
+
+241 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+
+added 69 packages, and changed 1 package in 26s
+
+245 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1510 packages in 8s
+
+245 packages are looking for funding
+  run `npm fund` for details
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Created git commit.
+
+Success! Created movies-starter at D:\مجلد جديد\React\05-Movies DB\movies-starter
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd movies-starter
+  npm start
+
+Happy hacking!
+PS D:\مجلد جديد\React\05-Movies DB> ls
+
+
+    Directory: D:\مجلد جديد\React\05-Movies DB
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          9/1/2023   6:48 AM                movies-starter
+
+
+PS D:\مجلد جديد\React\05-Movies DB> cd .\movies-starter\
+PS D:\مجلد جديد\React\05-Movies DB\movies-starter> npm install react-bootstrap bootstrap
+
+added 19 packages, and audited 1529 packages in 18s
+
+247 packages are looking for funding
+  run `npm fund` for details
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+PS D:\مجلد جديد\React\05-Movies DB\movies-starter>
