@@ -312,4 +312,51 @@ If you'd like to contribute to the development of the ReactJS project, please op
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
+## References
+
+Below, you'll find some recommended resources for learning React:
+
+### Video Tutorials and Courses:
+
+- ✅ [ReactJs-Build Full E-Commerce-Scratch Redux 2023 (بالعربي)](https://www.youtube.com/playlist?list=PLDQ11FgmbqQPRui5VDCSQvYt2HOYiCVep)
+  - ✅ [Complete Course in Udemy](https://www.udemy.com/course/reactjs-build-full-e-commerce-from-scratch-redux)
+- ✅ [Learn React JS Tutorial](https://www.youtube.com/playlist?list=PLtFbQRDJ11kEjXWZmwkOV-vfXmrEEsuEW)
+- ✅ [10-Hour Course: Build and Deploy 4 Modern React Apps for Frontend Developers](https://www.youtube.com/watch?v=F627pKNUCVQ&t=11767s)
+- ✅ [Code 15 React Projects](https://www.youtube.com/watch?v=a_7Z7C_JCyo&t=3s)
+- ✅ [React: The Complete Guide with Redux (Udemy Course)](https://www.udemy.com/course/react-the-complete-guide-incl-redux)
+- ✅ [React JS Crash Course](https://www.youtube.com/watch?v=w7ejDZ8SWv8)
+- ✅ [React Router v6 Major Changes](https://www.youtube.com/watch?v=k2Zk5cbiZhg)
+- ✅ [React Context \& Hooks Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9hNokByJilPg5g9m2APUePI)
+- ✅ [React js: (بالعربي) تعلم برمجة متجر إلكتروني مع لوحة التحكم](https://www.udemy.com/course/react-js-e-commerce)
+
+### Official Documentation and Resources:
+
+- ✅ [React: The library for web and native user interfaces](https://react.dev)
+- ✅ [React Developer Tools](https://react.dev/learn/react-developer-tools)
+- ✅ [React 18 Upgrade Guide](https://react.dev/blog/2022/03/08/react-18-upgrade-guide#updates-to-client-rendering-apis)
+- ✅ [Legacy React Documentation](https://legacy.reactjs.org)
+- ✅ [React Bootstrap](https://react-bootstrap.netlify.app)
+- ✅ [Visual Studio Code React Tutorial](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
+- ✅ [Create React App Documentation](https://create-react-app.dev/docs/getting-started)
+- ✅ [React Router Documentation](https://reactrouter.com/en/main)
+- ✅ [CodeSandbox React Examples](https://codesandbox.io/examples/package/react-emmet-assertion)
+
+### Books:
+
+- ✅ [Pro React Book](https://www.amazon.com/Pro-React-Cassio-Sousa-Antonio/dp/1484212614)
+- ✅ [React: Up and Running Book](https://www.amazon.com/React-Up-Running-Stoyan-Stefanov/dp/1491931825)
+
+### UI Component Libraries:
+
+- ✅ [Material-UI: An elegant framework for crafting exquisite user interfaces in React](https://mui.com)
+- ✅ [NextUI: A sophisticated library of meticulously designed UI components, tailored for accelerated React application development](https://nextui.org)
+- ✅ [Horizon UI Components: A collection of modern, high-quality UI components, elevating the aesthetics of React applications](https://horizon-ui.com/components)
+- ✅ [Ant Design: The quintessential design library for creating polished, visually stunning user interfaces in React and React Native](https://ant.design)
+  - ✅ [Ant Design GitHub Repository](https://github.com/ant-design/ant-design)
+
+### Additional Resources:
+
+- ✅ [How to write Javascript and React with VS Code FASTER! (using code snippets)](https://www.youtube.com/watch?v=uuXxomVFbC8)
+- ✅ [Hands-On React: The best way to learn React](https://handsonreact.com)
+
 Created by: [**Rebhi Ibrahim**](mailto:rebheibrahim@gmail.com)
