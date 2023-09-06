@@ -273,7 +273,7 @@ This will download and install all the necessary dependencies for the project.
 4. After the installation is complete, you can start the project by running the following command:
 
 ```bash
-   npm start
+npm start
 ```
 
 This will start the web application and allow you to open it in your default web browser.
