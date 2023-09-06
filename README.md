@@ -253,7 +253,7 @@ Once the installation is complete, you'll be ready to explore the "Menu Project.
 
 Remember to repeat these steps for each project when you want to use them. This ensures that you have all the necessary dependencies installed and can run the projects smoothly.
 
-### 4. [📽️ Movies DB Project](https://github.com/rebhi-2002/ReactJS/tree/main/04-Movies%20DB)
+### 4. [📽️ Movies DB Project](https://github.com/rebhi-2002/ReactJS/tree/main/05-Movies%20DB)
 
 - [**Desktop View**](<https://github.com/rebhi-2002/ReactJS/blob/main/assets/Movies%20DB%20(Desktop).png>) &nbsp; | &nbsp; [**Mobile View**](<https://github.com/rebhi-2002/ReactJS/blob/main/assets/Movies%20DB%20(Mobile).png>) &nbsp; | &nbsp; [**Movie Details Page**](<https://github.com/rebhi-2002/ReactJS/blob/main/assets/Movies%20DB%20(Details).png>)
 
