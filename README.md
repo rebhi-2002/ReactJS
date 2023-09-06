@@ -22,6 +22,94 @@
 
 # :rocket: React.js and JavaScript Mastery: Your Comprehensive Learning Journey
 
+## Table of Contents
+
+1. Introduction
+
+   - Important Notice for Users
+   - Overview
+   - Getting Started
+     - Requirements
+     - Installation
+     - Project Libraries and Versions
+     - Start Development
+
+2. Modern JavaScript
+
+   - Topics Covered
+     - Var, Let, Const
+     - Arrow Function
+     - Export and Import
+     - Classes
+     - Spread Operators
+     - De-structuring
+     - Primitive Types
+     - Array Functions
+     - Array Simple Methods (Slice, Splice, Reverse, Concat, Join)
+     - Array Methods (Filter, Find, Sort, Reduce)
+     - Higher Order Functions
+     - Promise, Asynchronous, Synchronous
+     - Multi Promise
+     - Async, Await
+
+3. First React Project
+
+   - Lessons
+     - What, Why, ReactJS
+     - How React Work
+     - Install NodeJs VsCode, Run Project
+     - React File Structure Vs Code
+
+4. React Fundamentals
+
+   - Lessons
+     - What JSX, JSX vs HTML
+     - React Bootstrap, Styling
+     - Building Custom Component, Reuse
+     - Props
+     - Pass Function As Props, Children
+     - Render Lists Conditional
+     - Events, Handlers, User Input
+     - React Router (Navigation) - Part1
+     - React Router (Navigation) - Part2
+     - React Hooks Meaning
+     - useState
+     - useEffect
+     - useRef
+     - useContext, ContextApi Part1
+     - useContext, ContextApi Part2
+     - useMemo
+     - useReducer
+     - Custom Hooks
+     - Fetching Data Api (Fetch and Axios)
+
+5. Basic Projects
+
+   - Dates Reminder Project
+   - Question and Answer Project
+   - Menu Project
+   - Movies DB Project
+
+6. React Redux From Scratch
+
+   - Introduction
+
+7. Contribution
+
+   - How to Contribute
+
+8. License
+
+9. References
+
+   - Video Tutorials and Courses
+   - Official Documentation and Resources
+   - Books
+   - UI Component Libraries
+   - Additional Resources
+
+10. Author Information
+
 ### Important Notice for Users
 
 This content is directed towards individuals who possess a broad knowledge and prior experience in web development. It is assumed that you are proficient in handling technologies such as HTML 5, CSS 3, Bootstrap +4, and JavaScript with ease before embarking on exploring the content here. If you do not have this experience yet, we strongly advise learning these fundamentals first and acquiring the necessary expertise.
