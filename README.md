@@ -13,7 +13,9 @@
 </div>
 <br />
 
-# React JavaScript Content
+<!-- # React JavaScript Content -->
+
+# :rocket: React.js and JavaScript Mastery: Your Comprehensive Learning Journey
 
 ### Important Notice for Users:
 
@@ -43,7 +45,7 @@ To run the ReactJS project, you'll need:
 git clone https://github.com/rebhi-2002/ReactJS.git
 ```
 
-1. Navigate to the project folder:
+3. Navigate to the project folder:
 
 ```bash
 cd ReactJS/01-FirstProject/firsttest/
@@ -60,6 +62,8 @@ yarn install
 ### Project Libraries and Versions
 
 ```json
+** ProjectFolder\package.json **
+--------------------------------
 "dependencies": {
   "@testing-library/jest-dom": "^5.17.0",
   "@testing-library/react": "^13.4.0",
@@ -70,6 +74,7 @@ yarn install
   "react": "^18.2.0",
   "react-bootstrap": "^2.8.0",
   "react-dom": "^18.2.0",
+  "react-paginate": "^8.2.0",
   "react-router-dom": "^6.15.0",
   "react-reveal": "^1.2.2",
   "react-scripts": "5.0.1",
@@ -78,15 +83,16 @@ yarn install
 },
 ```
 
-| Package Name                | Version   | npm Link                                                                                                                      | Package Name           | Version   | npm Link                                                                                                            |
-| --------------------------- | --------- | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------- | --------- | ------------------------------------------------------------------------------------------------------------------- |
-| @testing-library/jest-dom   | `^5.17.0` | [![npm](https://img.shields.io/npm/v/@testing-library/jest-dom)](https://www.npmjs.com/package/@testing-library/jest-dom)     | @testing-library/react | `^13.4.0` | [![npm](https://img.shields.io/npm/v/@testing-library/react)](https://www.npmjs.com/package/@testing-library/react) |
-| @testing-library/user-event | `^13.5.0` | [![npm](https://img.shields.io/npm/v/@testing-library/user-event)](https://www.npmjs.com/package/@testing-library/user-event) | axios                  | `^1.5.0`  | [![npm](https://img.shields.io/npm/v/axios)](https://www.npmjs.com/package/axios)                                   |
-| bootstrap                   | `^5.3.1`  | [![npm](https://img.shields.io/npm/v/bootstrap)](https://www.npmjs.com/package/bootstrap)                                     | cra-template           | `1.2.0`   | [![npm](https://img.shields.io/npm/v/cra-template)](https://www.npmjs.com/package/cra-template)                     |
-| react-dom                   | `^18.2.0` | [![npm](https://img.shields.io/npm/v/react-dom)](https://www.npmjs.com/package/react-dom)                                     | react-router-dom       | `^6.15.0` | [![npm](https://img.shields.io/npm/v/react-router-dom)](https://www.npmjs.com/package/react-router-dom)             |
-| react-scripts               | `5.0.1`   | [![npm](https://img.shields.io/npm/v/react-scripts)](https://www.npmjs.com/package/react-scripts)                             | react-reveal           | `^1.2.2`  | [![npm](https://img.shields.io/npm/v/react-reveal)](https://www.npmjs.com/package/react-reveal)                     |
-| react-toastify              | `^9.1.3`  | [![npm](https://img.shields.io/npm/v/react-toastify)](https://www.npmjs.com/package/react-toastify)                           | web-vitals             | `^2.1.4`  | [![npm](https://img.shields.io/npm/v/web-vitals)](https://www.npmjs.com/package/web-vitals)                         |
-| react                       | `^18.2.0` | [![npm](https://img.shields.io/npm/v/react)](https://www.npmjs.com/package/react)                                             | react-bootstrap        | `^2.8.0`  | [![npm](https://img.shields.io/npm/v/react-bootstrap)](https://www.npmjs.com/package/react-bootstrap)               |
+| Package Name                |  Version  |                                                           npm Link                                                            | Package Name           |  Version  |                                                      npm Link                                                       |
+| --------------------------- | :-------: | :---------------------------------------------------------------------------------------------------------------------------: | ---------------------- | :-------: | :-----------------------------------------------------------------------------------------------------------------: |
+| @testing-library/jest-dom   | `^5.17.0` |   [![npm](https://img.shields.io/npm/v/@testing-library/jest-dom)](https://www.npmjs.com/package/@testing-library/jest-dom)   | @testing-library/react | `^13.4.0` | [![npm](https://img.shields.io/npm/v/@testing-library/react)](https://www.npmjs.com/package/@testing-library/react) |
+| @testing-library/user-event | `^13.5.0` | [![npm](https://img.shields.io/npm/v/@testing-library/user-event)](https://www.npmjs.com/package/@testing-library/user-event) | axios                  | `^1.5.0`  |                  [![npm](https://img.shields.io/npm/v/axios)](https://www.npmjs.com/package/axios)                  |
+| bootstrap                   | `^5.3.1`  |                   [![npm](https://img.shields.io/npm/v/bootstrap)](https://www.npmjs.com/package/bootstrap)                   | cra-template           |  `1.2.0`  |           [![npm](https://img.shields.io/npm/v/cra-template)](https://www.npmjs.com/package/cra-template)           |
+| react-dom                   | `^18.2.0` |                   [![npm](https://img.shields.io/npm/v/react-dom)](https://www.npmjs.com/package/react-dom)                   | react-router-dom       | `^6.15.0` |       [![npm](https://img.shields.io/npm/v/react-router-dom)](https://www.npmjs.com/package/react-router-dom)       |
+| react-scripts               |  `5.0.1`  |               [![npm](https://img.shields.io/npm/v/react-scripts)](https://www.npmjs.com/package/react-scripts)               | react-reveal           | `^1.2.2`  |           [![npm](https://img.shields.io/npm/v/react-reveal)](https://www.npmjs.com/package/react-reveal)           |
+| react-toastify              | `^9.1.3`  |              [![npm](https://img.shields.io/npm/v/react-toastify)](https://www.npmjs.com/package/react-toastify)              | web-vitals             | `^2.1.4`  |             [![npm](https://img.shields.io/npm/v/web-vitals)](https://www.npmjs.com/package/web-vitals)             |
+| react                       | `^18.2.0` |                       [![npm](https://img.shields.io/npm/v/react)](https://www.npmjs.com/package/react)                       | react-bootstrap        | `^2.8.0`  |        [![npm](https://img.shields.io/npm/v/react-bootstrap)](https://www.npmjs.com/package/react-bootstrap)        |
+| react-paginate              | `^8.2.0`  |              [![npm](https://img.shields.io/npm/v/react-paginate)](https://www.npmjs.com/package/react-paginate)              |                        |           |                                                                                                                     |
 
 ### Start Development
 
@@ -228,7 +234,7 @@ This will download and install all the necessary dependencies for the project. O
 #### To use the "Question and Answer Project," follow these steps:
 
 1. Open your terminal.
-2. Navigate to the project directory for the "ReactJS/03-QA/q-a/"
+2. Navigate to the project directory for the "ReactJS/03-QA/q-a"
 3. Run the following command to install the required npm packages: **`npm install`**
 
 This will download and install all the necessary dependencies for the project.
@@ -240,14 +246,36 @@ This will download and install all the necessary dependencies for the project.
 #### For the "Menu Project," ensure that you have the required npm packages installed:
 
 1. Open your terminal.
-2. Navigate to the project directory for the "Menu Project."
+2. Navigate to the project directory for the "ReactJS/04-Menu/menu"
 3. Run the following command to install the required npm packages: **`npm install`**
 
 Once the installation is complete, you'll be ready to explore the "Menu Project."
 
 Remember to repeat these steps for each project when you want to use them. This ensures that you have all the necessary dependencies installed and can run the projects smoothly.
 
-### 4. 📽️ Movies DB Project.
+### 4. [📽️ Movies DB Project](https://github.com/rebhi-2002/ReactJS/tree/main/04-Movies%20DB)
+
+- [**Desktop View**](<https://github.com/rebhi-2002/ReactJS/blob/main/assets/Movies%20DB%20(Desktop).png>) &nbsp; | &nbsp; [**Mobile View**](<https://github.com/rebhi-2002/ReactJS/blob/main/assets/Movies%20DB%20(Mobile).png>) &nbsp; | &nbsp; [**Movie Details Page**](<https://github.com/rebhi-2002/ReactJS/blob/main/assets/Movies%20DB%20(Details).png>)
+
+#### To set up the "Movies DB Project," follow these steps:
+
+1. Open your terminal.
+2. Navigate to the project directory for the "ReactJS/05-Movies DB/movies-starter"
+3. Run the following command to install the required npm packages: **`npm install`**
+
+This will download and install all the necessary dependencies for the project.
+
+4. After the installation is complete, you can start the project by running the following command:
+
+```bash
+   npm start
+```
+
+This will start the web application and allow you to open it in your default web browser.
+
+Now you can start exploring and working on the "Movies DB Project." Be sure to repeat these steps for each project when you want to use them to ensure that you have all the necessary dependencies installed and can run the projects smoothly.
+
+## 05-React Redux From Scratch: ⏳
 
 ## Contribution
 
