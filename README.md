@@ -359,4 +359,4 @@ Below, you'll find some recommended resources for learning React:
 - ✅ [How to write Javascript and React with VS Code FASTER! (using code snippets)](https://www.youtube.com/watch?v=uuXxomVFbC8)
 - ✅ [Hands-On React: The best way to learn React](https://handsonreact.com)
 
-Created by: [**Rebhi Ibrahim**](mailto:rebheibrahim@gmail.com)
+#### Author: [**Rebhi Ibrahim**](mailto:rebheibrahim@gmail.com) <br/> Crafted with ❤️ By _Rebhe Ibrahim_ © 2023 🚀
