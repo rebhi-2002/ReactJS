@@ -157,7 +157,7 @@ Happy hacking!
 // React Bootstrap, Styling
 
 // npm install react-bootstrap
-// CSS library ti give us easy design
+// CSS library to give us easy design
 
 // --------------------------------------
 
@@ -479,7 +479,23 @@ Happy hacking!
  */
 
 // PS D:\مجلد جديد\React\05-Movies DB> npx create-react-app movies-starter
-// ** "⏳ Soon" **
+// PS D:\مجلد جديد\React\05-Movies DB\movies-starter> npm i axios
+
+// ** API: **
+//* https://www.themoviedb.org
+//* https://developer.themoviedb.org/docs/getting-started
+//* https://developer.themoviedb.org/docs/image-basics
+//* https://developer.themoviedb.org/docs/errors
+
+//* Postman app: https://www.postman.com : بتاعتك API's لإستعراض ال
+
+//* https://getbootstrap.com/docs/5.3/components/pagination
+//* https://react-bootstrap.netlify.app/docs/components/pagination
+
+// PS D:\مجلد جديد\React\05-Movies DB\movies-starter> npm install react-paginate --save
+// https://codepen.io/monsieurv/pen/yLoMxYQ
+
+// PS D:\مجلد جديد\React\05-Movies DB\movies-starter> npm i react-router-dom
 
 /*
 
@@ -505,6 +521,15 @@ font-family: 'Almarai', sans-serif;
 font-family: 'Cairo', sans-serif;
 
 */
+
+// * React Redux:
+// ==============
+
+// ** What Redux **
+
+// Redux is a state management library for front end applications. Developers commonly use it with React through the
+// react-redux package, but it can also stand alone - so you can it in any front end framework or library, including
+//                                   Vanilla JavaScript.
 
 // ------------------------------------------------------------------------------------------
 
