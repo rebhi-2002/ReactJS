@@ -61,9 +61,9 @@ yarn install
 
 ### Project Libraries and Versions
 
+> :star: **ProjectFolder\package.json:**
+
 ```json
-** ProjectFolder\package.json **
---------------------------------
 "dependencies": {
   "@testing-library/jest-dom": "^5.17.0",
   "@testing-library/react": "^13.4.0",
