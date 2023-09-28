@@ -90,7 +90,7 @@ function App() {
             <Route
               path="/movie/:id" // uniqueID
               // [\src\components\CardMovie.js] في ال [<Link to={`/movie/${movie.id}`}>] لازم يكون نفس [path="/movie/:id"]
-              element={<MovieDetails movies={movies} />}
+              element={<MovieDetails />}
             />
             {/* :id متغير يعني مرة 1 ومرة 10 ومرة... ف أنا عاوزه يبقى متغير، ف لازم أحط قبله نقطتين id ال */}
             {/* "/movie/:id" إنو ده متغير هيجيلي بعدين routing على شان أعرف المنظومة بتاعت ال */}
