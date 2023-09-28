@@ -531,6 +531,8 @@ font-family: 'Cairo', sans-serif;
 // react-redux package, but it can also stand alone - so you can it in any front end framework or library, including
 //                                   Vanilla JavaScript.
 
+// * Followed in section: Redux\redux\src\ReduxNotes.js !
+
 // ------------------------------------------------------------------------------------------
 
 // C:\cmder
