@@ -1,0 +1,9 @@
+PS D:\مجلد جديد\React\Redux\Movies Final> npm i redux react-redux
+
+- 1. Create Store => [src\redux\store\store.js]
+- 2. Create Reducer to Set State And Change It => [src\redux\reducer\movieReducer.js]
+- 3. Wrap All App With Redux Provider => [src\index.js]
+- 4. Access Data From Store Reducer With useSelector => [src\App.js]
+- 5. Change Data In Reducer With Dispatch => [src\App.js]
+
+PS D:\مجلد جديد\React\Redux\Movies Final> npm i redux-thunk
