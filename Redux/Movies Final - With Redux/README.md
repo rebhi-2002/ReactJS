@@ -1,12 +1,12 @@
-# 📂 Explanation of the Difference Between the Folders
+# 📂 Explanation of the Difference Between the Folders:
 
 In this project, there are two main folders: "01-Movies Final" and "02-Movies Final." Here is a brief explanation of the difference between them:
 
-## 📁 01-Movies Final
+## 📁 01-Movies Final:
 
 This folder contains the final code of the project with detailed comments and explanations for key points. If you are looking for the final code with comprehensive explanations, you can find it here.
 
-## 📁 02-Movies Final
+## 📁 02-Movies Final:
 
 This folder also contains the final code but without detailed comments. You can use this folder if you are only interested in the final code without detailed explanations.
 
