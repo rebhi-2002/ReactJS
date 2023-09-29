@@ -141,7 +141,7 @@ Welcome to my ReactJS project! This project aims to learn and understand the Rea
 
 ## Getting Started
 
-[create-react-app](https://github.com/facebook/create-react-app)
+Before you begin, make sure you meet the following requirements:
 
 ### Requirements
 
@@ -173,7 +173,11 @@ npm install
 yarn install
 ```
 
+**To set up your project, you can use [Create React App](https://github.com/facebook/create-react-app). It's a popular tool for quickly bootstrapping React applications.**
+
 ### Project Libraries and Versions
+
+In this project, we are using the following libraries and versions:
 
 > :star: **ProjectFolder\package.json:**
 
@@ -217,6 +221,8 @@ yarn install
 | redux-thunk                 | `^2.4.2`  |                 [![npm](https://img.shields.io/npm/v/redux-thunk)](https://www.npmjs.com/package/redux-thunk)                 |
 
 ### Start Development
+
+Now that you have everything set up, you can start developing your React application. Here are some initial steps to help you get going:
 
 Now you can start development and explore the ReactJS project. Use the examples and files within the project to understand how to use ReactJS to build dynamic user interface applications.
 
