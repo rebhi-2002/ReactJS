@@ -445,24 +445,24 @@ Here's an overview of the course content:
 
 - **[Lesson 04-Redux: Create Store Reducer](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/redux/src)**: We will create a Redux store and its associated reducers in this lesson, laying the foundation for managing the application's state.
 
-  - [store](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/redux/src/store/store.js)
-  - [reducerCounter](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/redux/src/reducer/reducerCounter.js)
-  - [index](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/index.js)
+  - [store.js](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/redux/src/store/store.js)
+  - [reducerCounter.js](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/redux/src/reducer/reducerCounter.js)
+  - [index.js](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/index.js)
 
 - **[Lesson 05-Utilizing Redux Hooks (useSelector and useDispatch)](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/redux/src)**: In this lesson, we'll introduce you to using Redux hooks like useSelector and useDispatch to access the store's state and execute actions.
 
   - [useSelector, useDispatch](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/App.js)
   - [state, action](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/reducer/reducerCounter.js)
-  - [type](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/redux/src/type/type.js)
-  - [action](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/actions/action.js)
+  - [type.js](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/redux/src/type/type.js)
+  - [action.js](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/actions/action.js)
 
 - **[Lesson 06-Redux Multi Reducer Redux DevTools](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/redux/src/reducer)**: We will explore managing the application state using multiple reducers in this lesson. Additionally, we'll learn how to utilize Redux DevTools for easier debugging and monitoring of the application's state.
 
-  - [reducerCounter](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/reducer/reducerCounter.js)
-  - [reducerAuth](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/reducer/reducerAuth.js)
-  - [rootReducer](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/reducer/rootReducer.js)
-  - [store](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/store/store.js)
-  - [App](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/App.js)
+  - [reducerCounter.js](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/reducer/reducerCounter.js)
+  - [reducerAuth.js](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/reducer/reducerAuth.js)
+  - [rootReducer.js](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/reducer/rootReducer.js)
+  - [store.js](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/store/store.js)
+  - [App.js](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/App.js)
 
 - **[Lesson 07-Update Movies Project with Redux](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/Movies%20Final%20-%20With%20Redux)**: In the final lesson, we'll enhance our previous movie project by incorporating Redux for state management. You'll witness how Redux can contribute to improving the application's performance.
 
