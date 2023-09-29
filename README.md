@@ -93,6 +93,18 @@
 **6. React Redux From Scratch**
 
 - Introduction
+- Course Objectives
+- Target Audience
+- Requirements
+- Lessons:
+  - Redux Fundamentals (What, Why, When)
+  - Comparing Redux with the Context API
+  - How Redux Works
+  - Create Store Reducer
+  - Utilizing Redux Hooks (useSelector and useDispatch)
+  - Multi Reducer Redux DevTools
+  - Update Movies Project with Redux
+- Let's Get Started
 
 **7. Contribution**
 
@@ -158,6 +170,7 @@ yarn install
 
 ```json
 "dependencies": {
+  "@redux-devtools/extension": "^3.2.5",
   "@testing-library/jest-dom": "^5.17.0",
   "@testing-library/react": "^13.4.0",
   "@testing-library/user-event": "^13.5.0",
@@ -168,24 +181,31 @@ yarn install
   "react-bootstrap": "^2.8.0",
   "react-dom": "^18.2.0",
   "react-paginate": "^8.2.0",
+  "react-redux": "^8.1.2",
   "react-router-dom": "^6.15.0",
   "react-reveal": "^1.2.2",
   "react-scripts": "5.0.1",
+  "redux": "^4.2.1",
+  "redux-thunk": "^2.4.2",
+  "redux-devtools-extension": "^2.13.9",
   "react-toastify": "^9.1.3",
   "web-vitals": "^2.1.4"
 },
 ```
 
-| Package Name                |  Version  |                                                           npm Link                                                            | Package Name           |  Version  |                                                      npm Link                                                       |
-| --------------------------- | :-------: | :---------------------------------------------------------------------------------------------------------------------------: | ---------------------- | :-------: | :-----------------------------------------------------------------------------------------------------------------: |
-| @testing-library/jest-dom   | `^5.17.0` |   [![npm](https://img.shields.io/npm/v/@testing-library/jest-dom)](https://www.npmjs.com/package/@testing-library/jest-dom)   | @testing-library/react | `^13.4.0` | [![npm](https://img.shields.io/npm/v/@testing-library/react)](https://www.npmjs.com/package/@testing-library/react) |
-| @testing-library/user-event | `^13.5.0` | [![npm](https://img.shields.io/npm/v/@testing-library/user-event)](https://www.npmjs.com/package/@testing-library/user-event) | axios                  | `^1.5.0`  |                  [![npm](https://img.shields.io/npm/v/axios)](https://www.npmjs.com/package/axios)                  |
-| bootstrap                   | `^5.3.1`  |                   [![npm](https://img.shields.io/npm/v/bootstrap)](https://www.npmjs.com/package/bootstrap)                   | cra-template           |  `1.2.0`  |           [![npm](https://img.shields.io/npm/v/cra-template)](https://www.npmjs.com/package/cra-template)           |
-| react-dom                   | `^18.2.0` |                   [![npm](https://img.shields.io/npm/v/react-dom)](https://www.npmjs.com/package/react-dom)                   | react-router-dom       | `^6.15.0` |       [![npm](https://img.shields.io/npm/v/react-router-dom)](https://www.npmjs.com/package/react-router-dom)       |
-| react-scripts               |  `5.0.1`  |               [![npm](https://img.shields.io/npm/v/react-scripts)](https://www.npmjs.com/package/react-scripts)               | react-reveal           | `^1.2.2`  |           [![npm](https://img.shields.io/npm/v/react-reveal)](https://www.npmjs.com/package/react-reveal)           |
-| react-toastify              | `^9.1.3`  |              [![npm](https://img.shields.io/npm/v/react-toastify)](https://www.npmjs.com/package/react-toastify)              | web-vitals             | `^2.1.4`  |             [![npm](https://img.shields.io/npm/v/web-vitals)](https://www.npmjs.com/package/web-vitals)             |
-| react                       | `^18.2.0` |                       [![npm](https://img.shields.io/npm/v/react)](https://www.npmjs.com/package/react)                       | react-bootstrap        | `^2.8.0`  |        [![npm](https://img.shields.io/npm/v/react-bootstrap)](https://www.npmjs.com/package/react-bootstrap)        |
-| react-paginate              | `^8.2.0`  |              [![npm](https://img.shields.io/npm/v/react-paginate)](https://www.npmjs.com/package/react-paginate)              |                        |           |                                                                                                                     |
+| Package Name                |  Version  |                                                           npm Link                                                            | Package Name                       |  Version  |                                                                          npm Link                                                                           |
+| --------------------------- | :-------: | :---------------------------------------------------------------------------------------------------------------------------: | ---------------------------------- | :-------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| @testing-library/jest-dom   | `^5.17.0` |   [![npm](https://img.shields.io/npm/v/@testing-library/jest-dom)](https://www.npmjs.com/package/@testing-library/jest-dom)   | @testing-library/react             | `^13.4.0` |                     [![npm](https://img.shields.io/npm/v/@testing-library/react)](https://www.npmjs.com/package/@testing-library/react)                     |
+| @testing-library/user-event | `^13.5.0` | [![npm](https://img.shields.io/npm/v/@testing-library/user-event)](https://www.npmjs.com/package/@testing-library/user-event) | axios                              | `^1.5.0`  |                                      [![npm](https://img.shields.io/npm/v/axios)](https://www.npmjs.com/package/axios)                                      |
+| bootstrap                   | `^5.3.1`  |                   [![npm](https://img.shields.io/npm/v/bootstrap)](https://www.npmjs.com/package/bootstrap)                   | cra-template                       |  `1.2.0`  |                               [![npm](https://img.shields.io/npm/v/cra-template)](https://www.npmjs.com/package/cra-template)                               |
+| react-dom                   | `^18.2.0` |                   [![npm](https://img.shields.io/npm/v/react-dom)](https://www.npmjs.com/package/react-dom)                   | react-router-dom                   | `^6.15.0` |                           [![npm](https://img.shields.io/npm/v/react-router-dom)](https://www.npmjs.com/package/react-router-dom)                           |
+| react-scripts               |  `5.0.1`  |               [![npm](https://img.shields.io/npm/v/react-scripts)](https://www.npmjs.com/package/react-scripts)               | react-reveal                       | `^1.2.2`  |                               [![npm](https://img.shields.io/npm/v/react-reveal)](https://www.npmjs.com/package/react-reveal)                               |
+| react-toastify              | `^9.1.3`  |              [![npm](https://img.shields.io/npm/v/react-toastify)](https://www.npmjs.com/package/react-toastify)              | web-vitals                         | `^2.1.4`  |                                 [![npm](https://img.shields.io/npm/v/web-vitals)](https://www.npmjs.com/package/web-vitals)                                 |
+| react                       | `^18.2.0` |                       [![npm](https://img.shields.io/npm/v/react)](https://www.npmjs.com/package/react)                       | react-bootstrap                    | `^2.8.0`  |                            [![npm](https://img.shields.io/npm/v/react-bootstrap)](https://www.npmjs.com/package/react-bootstrap)                            |
+| react-paginate              | `^8.2.0`  |              [![npm](https://img.shields.io/npm/v/react-paginate)](https://www.npmjs.com/package/react-paginate)              | react-redux                        | `^8.1.2`  |                                [![npm](https://img.shields.io/npm/v/react-redux)](https://www.npmjs.com/package/react-redux)                                |
+| redux                       | `^4.2.1`  |                       [![npm](https://img.shields.io/npm/v/redux)](https://www.npmjs.com/package/redux)                       | @redux-devtools/extension          | `^3.2.5`  |                  [![npm](https://img.shields.io/npm/v/@redux-devtools/extension)](https://www.npmjs.com/package/@redux-devtools/extension)                  |
+| redux-devtools-extension    | `^2.13.9` |    [![npm](https://img.shields.io/npm/v/redux-devtools-extension)](https://www.npmjs.com/package/redux-devtools-extension)    | Redux DevTools 'Browser Extension' | `^3.1.3`  | [![npm](https://img.shields.io/npm/v/@redux-devtools/extension)](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd) |
+| redux-thunk                 | `^2.4.2`  |                 [![npm](https://img.shields.io/npm/v/redux-thunk)](https://www.npmjs.com/package/redux-thunk)                 |
 
 ### Start Development
 
@@ -368,11 +388,19 @@ This will start the web application and allow you to open it in your default web
 
 Now you can start exploring and working on the "Movies DB Project." Be sure to repeat these steps for each project when you want to use them to ensure that you have all the necessary dependencies installed and can run the projects smoothly.
 
-## 05-React Redux From Scratch: ⏳
+## 05-Creating a React Redux Application From Scratch:
 
 <div align="center">
   <img align="center" width="30%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Redux.png/320px-Redux.png" alt="Redux Icon" />
 </div>
+
+<br />
+
+### Introduction:
+
+Welcome to our comprehensive and specialized course, "Creating a React Redux Application from Scratch." This course is meticulously designed to provide web developers and React programmers with the knowledge and practical skills required to effectively and precisely employ the Redux framework for managing application state.
+
+Redux is a state management framework for React applications and stands as one of the most renowned tools for this purpose. This framework introduces concepts and methodologies that assist in organizing and simplifying state management, particularly in large-scale applications.
 
 <br />
 
@@ -390,7 +418,57 @@ Now you can start exploring and working on the "Movies DB Project." Be sure to r
   8: <img align="center" src="https://github.com/rebhi-2002/ReactJS/blob/main/assets/08-Redux_img.png" alt="" width="47%" height="250" />
 </p>
 
-<br />
+### Course Objectives:
+
+**Primary Objective**: The primary goal of this course is to empower you with comprehensive knowledge and proficient skills to master the application of Redux within React development. Upon completion, you will possess the capability to effectively structure and govern application state, thereby elevating user experiences and streamlining the complexities of application maintenance.
+
+### Target Audience:
+
+**Intended Audience**: This course has been meticulously designed for discerning developers and seasoned programmers who possess a fundamental foundation in React application development. It caters to individuals seeking to elevate their expertise in the art of state management using Redux.
+
+### Requirements:
+
+- Basic knowledge of the JavaScript programming language.
+- Prior experience in developing React applications.
+
+### Lessons
+
+Here's an overview of the course content:
+
+- **[Lesson 01-Redux Fundamentals (What, Why, When)](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/ReduxNotes.js)**: In this lesson, we will delve into the fundamentals of Redux, understanding why it's essential, and when it's appropriate to use it in React applications.
+
+- **[Lesson 02-Comparing Redux with the Context API](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/ReduxNotes.js)**: In this lesson, we'll make a comparative analysis between Redux and the Context API in React, helping you grasp the distinctions between them and when to favor one over the other.
+
+- **[Lesson 03-How Redux Works](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/ReduxNotes.js)**: This lesson will dissect how Redux operates under the hood, from state storage to state updates and component re-rendering based on changes.
+
+  - Please view the YouTube video titled 'Lecture 65: How Redux Work' by following this official link: [How Redux Work](https://www.youtube.com/watch?v=Oi90TML6Oz8&t=6s).
+
+- **[Lesson 04-Redux: Create Store Reducer](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/redux/src)**: We will create a Redux store and its associated reducers in this lesson, laying the foundation for managing the application's state.
+
+  - [store](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/redux/src/store/store.js)
+  - [reducerCounter](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/redux/src/reducer/reducerCounter.js)
+  - [index](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/index.js)
+
+- **[Lesson 05-Utilizing Redux Hooks (useSelector and useDispatch)](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/redux/src)**: In this lesson, we'll introduce you to using Redux hooks like useSelector and useDispatch to access the store's state and execute actions.
+
+  - [useSelector, useDispatch](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/App.js)
+  - [state, action](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/reducer/reducerCounter.js)
+  - [type](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/redux/src/type/type.js)
+  - [action](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/actions/action.js)
+
+- **[Lesson 06-Redux Multi Reducer Redux DevTools](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/redux/src/reducer)**: We will explore managing the application state using multiple reducers in this lesson. Additionally, we'll learn how to utilize Redux DevTools for easier debugging and monitoring of the application's state.
+
+  - [reducerCounter](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/reducer/reducerCounter.js)
+  - [reducerAuth](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/reducer/reducerAuth.js)
+  - [rootReducer](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/reducer/rootReducer.js)
+  - [store](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/store/store.js)
+  - [App](https://github.com/rebhi-2002/ReactJS/blob/main/Redux/redux/src/App.js)
+
+- **[Lesson 07-Update Movies Project with Redux](https://github.com/rebhi-2002/ReactJS/tree/main/Redux/Movies%20Final%20-%20With%20Redux)**: In the final lesson, we'll enhance our previous movie project by incorporating Redux for state management. You'll witness how Redux can contribute to improving the application's performance.
+
+### Let's Get Started:
+
+We are excited to embark on this educational journey with you and assist you in achieving your goals in React application development using Redux. Join us now to commence this inspiring and valuable learning experience.
 
 ## Contribution
 
