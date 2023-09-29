@@ -4,11 +4,18 @@
 -->
 
 <div align="center">
-  <img width="50%" src="https://github.com/rebhi-2002/ReactJS/blob/main/assets/ReactJS-unscreen.gif" alt="ReactJS Logo" />
+  <a href="https://react.dev">
+    <img width="50%" src="https://github.com/rebhi-2002/ReactJS/blob/main/assets/ReactJS-unscreen.gif" alt="ReactJS Logo" />
+  </a>
 </div>
 
 <br />
 <div align="center">
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react)
+[![CircleCI Status](https://circleci.com/gh/facebook/react.svg?style=shield)](https://circleci.com/gh/facebook/react)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://reactjs.org/docs/how-to-contribute.html#your-first-pull-request)
 
 [![GitHub repo size](https://img.shields.io/github/repo-size/rebhi-2002/ReactJS?style=plastic&color=61DAFB&label=Repo%20Size&logo=react)](https://github.com/rebhi-2002/ReactJS)
 [![GitHub contributors](https://img.shields.io/github/contributors/rebhi-2002/ReactJS?style=plastic&color=181717&label=Contributors&logo=github)](https://github.com/rebhi-2002/ReactJS)
@@ -133,6 +140,8 @@ This content is directed towards individuals who possess a broad knowledge and p
 Welcome to my ReactJS project! This project aims to learn and understand the ReactJS library and how to use it to build dynamic user interface applications.
 
 ## Getting Started
+
+[create-react-app](https://github.com/facebook/create-react-app)
 
 ### Requirements
 
@@ -391,10 +400,22 @@ Now you can start exploring and working on the "Movies DB Project." Be sure to r
 ## 05-Creating a React Redux Application From Scratch:
 
 <div align="center">
-  <img align="center" width="30%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Redux.png/320px-Redux.png" alt="Redux Icon" />
+  <a href="https://react-redux.js.org">
+    <img align="center" width="30%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Redux.png/320px-Redux.png" alt="Redux Icon" />
+  </a>
 </div>
 
 <br />
+
+<div align="center">
+
+[![MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/reduxjs/react-redux/blob/master/LICENSE.md)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/reduxjs/react-redux/test.yml?style=flat-square)
+[![npm version](https://img.shields.io/npm/v/react-redux.svg?style=flat-square)](https://www.npmjs.com/package/react-redux)
+[![npm downloads](https://img.shields.io/npm/dm/react-redux.svg?style=flat-square)](https://www.npmjs.com/package/react-redux)
+[![#redux channel on Discord](https://img.shields.io/badge/discord-redux@reactiflux-61DAFB.svg?style=flat-square)](http://www.reactiflux.com)
+
+</div>
 
 ### Introduction:
 
@@ -476,7 +497,7 @@ If you'd like to contribute to the development of the ReactJS project, please op
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://opensource.org/license/mit) file for details.
 
 ## References
 
