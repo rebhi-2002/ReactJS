@@ -9,6 +9,10 @@
   </a>
 </div>
 
+<h1 align="center">
+  <a href="https://react.dev">React - The library for web and native user interfaces</a>
+</h1>
+
 <br />
 <div align="center">
 
@@ -405,11 +409,20 @@ Now you can start exploring and working on the "Movies DB Project." Be sure to r
 
 ## 05-Creating a React Redux Application From Scratch:
 
+<div align="right">
+  <img width="4%" src="https://d33wubrfki0l68.cloudfront.net/97f337956b87f4589dbf68591f22f5f3dacf2736/55f2a/img/redux_white.svg" />
+</div>
+
 <div align="center">
   <a href="https://react-redux.js.org">
     <img align="center" width="30%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Redux.png/320px-Redux.png" alt="Redux Icon" />
   </a>
 </div>
+
+<h2 align="center">
+  <a href="https://react-redux.js.org">React Redux is the official React UI bindings layer for Redux. It lets your React components read data from a Redux store, and dispatch actions to the store to update state.
+  </a>
+</h2>
 
 <br />
 
