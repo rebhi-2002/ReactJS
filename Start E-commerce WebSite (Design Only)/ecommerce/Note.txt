@@ -1,0 +1,211 @@
+E-commerce Starter Desgin:
+--------------------------
+
+https://www.noon.com
+
+PS D:\مجلد جديد\React\Start E-commerce WebSite (Design Only)> npx create-react-app ecommerce
+PS D:\مجلد جديد\React\Start E-commerce WebSite (Design Only)\ecommerce> npm install react-bootstrap bootstrap
+PS D:\مجلد جديد\React\Start E-commerce WebSite (Design Only)\ecommerce> npm i react-router-dom
+PS D:\مجلد جديد\React\Start E-commerce WebSite (Design Only)\ecommerce> npm i react-paginate
+PS D:\مجلد جديد\React\Start E-commerce WebSite (Design Only)\ecommerce> npm i unop-react-dropdown
+PS D:\مجلد جديد\React\Start E-commerce WebSite (Design Only)\ecommerce> npm install react-image-gallery
+  => Style import (with webpack): import "react-image-gallery/styles/css/image-gallery.css";
+PS D:\مجلد جديد\React\Start E-commerce WebSite (Design Only)\ecommerce> npm i react-rating-stars-component
+PS D:\مجلد جديد\React\Start E-commerce WebSite (Design Only)\ecommerce> npm i multiselect-react-dropdown
+PS D:\مجلد جديد\React\Start E-commerce WebSite (Design Only)\ecommerce> npm i --save react-select
+PS D:\مجلد جديد\React\Start E-commerce WebSite (Design Only)\ecommerce> 
+
+Search: Free Templates E-commerce HTML, CSS, Bootstrap.
+====================================================================
+
+=> https://react-bootstrap.netlify.app/docs/components/navbar
+=> https://react-bootstrap.netlify.app/docs/components/carousel
+=> https://react-bootstrap.netlify.app/docs/components/cards
+=> https://react-bootstrap.netlify.app/docs/forms/overview
+=> https://www.npmjs.com/package/react-paginate
+=> https://www.npmjs.com/package/react-responsive-pagination
+=> https://react-bootstrap.netlify.app/docs/components/pagination
+=> https://getbootstrap.com/docs/5.3/components/pagination
+=> https://www.npmjs.com/package/unop-react-dropdown
+=> https://www.npmjs.com/package/react-image-gallery
+=> https://www.npmjs.com/package/react-rating-stars-component
+=> https://www.npmjs.com/package/multiselect-react-dropdown
+=> https://react-select.com/home
+=> 
+
+[https://react-bootstrap.github.io] | [https://react-bootstrap.netlify.app]
+
+====================================================================
+
+>> [tree /F] \ecommerce:
+------------------------
+
+C:\My_Github\ReactJS\Start E-commerce WebSite (Design Only)\ecommerce (main -> origin)
+λ tree /F
+Folder PATH listing
+Volume serial number is 000001D8 2256:6AB0
+C:.
+│   .gitignore
+│   Note.txt
+│   package-lock.json
+│   package.json
+│   README.md
+│
+├───public
+│       index.html
+│
+└───src
+    │   App.js
+    │   index.css
+    │   index.js
+    │
+    ├───Components
+    │   ├───Admin
+    │   │       AdminAddBrand.js
+    │   │       AdminAddCategory.js
+    │   │       AdminAddProducts.js
+    │   │       AdminAddSubCategory.js
+    │   │       AdminAllOrders.js
+    │   │       AdminAllOrdersItem.js
+    │   │       AdminAllProducsCard.js
+    │   │       AdminAllProducts.js
+    │   │       AdminOrderDetalis.js
+    │   │       AdminSideBar.js
+    │   │
+    │   ├───Brand
+    │   │       BrandCard.js
+    │   │       BrandContainer.js
+    │   │       BrandFeatured.js
+    │   │
+    │   ├───Cart
+    │   │       CartCheckout.js
+    │   │       CartItem.js
+    │   │
+    │   ├───Category
+    │   │       CategoryCard.js
+    │   │       CategoryContainer.js
+    │   │       CategoryHeader.js
+    │   │
+    │   ├───Checkout
+    │   │       ChoosePayMethoud.js
+    │   │
+    │   ├───Home
+    │   │       DiscountSection.js
+    │   │       HomeCategory.js
+    │   │       Slider.js
+    │   │
+    │   ├───Products
+    │   │       CardProductsContainer.js
+    │   │       LeftButton.js
+    │   │       ProductCard.js
+    │   │       ProductDetails.js
+    │   │       ProductGallery.js
+    │   │       ProductText.js
+    │   │       RightButton.js
+    │   │
+    │   ├───Rate
+    │   │       RateContainer.js
+    │   │       RateItem.js
+    │   │       RatePost.js
+    │   │
+    │   ├───Uitily
+    │   │       Footer.js
+    │   │       NavBarLogin.js
+    │   │       Pagination.js
+    │   │       SearchCountResult.js
+    │   │       SideFilter.js
+    │   │       SubTitle.js
+    │   │
+    │   └───User
+    │           UserAddAddress.js
+    │           UserAddressCard.js
+    │           UserAllAddress.js
+    │           UserAllOrderCard.js
+    │           UserAllOrderItem.js
+    │           UserAllOrders.js
+    │           UserEditAddress.js
+    │           UserFavoriteProduct.js
+    │           UserProfile.js
+    │           UserSideBar.js
+    │
+    ├───images
+    │       add.png
+    │       avatar.png
+    │       brand-1.png
+    │       brand-2.png
+    │       brand-3.png
+    │       cart.png
+    │       category-1.png
+    │       category-2.png
+    │       category-3.png
+    │       category-4.png
+    │       category-5.png
+    │       delete.png
+    │       facebook.png
+    │       fav-off.png
+    │       fav-on.png
+    │       filter.png
+    │       Headphone.png
+    │       instagram.png
+    │       laptops.png
+    │       login.png
+    │       logo.png
+    │       mobile-1.png
+    │       mobile-2.png
+    │       mobile.png
+    │       next.png
+    │       phone.png
+    │       prev.png
+    │       product-1.png
+    │       rate.png
+    │       slider-1.png
+    │       slider-2.png
+    │       slider-3.png
+    │       slider-4.png
+    │       sort.png
+    │       twitter.png
+    │
+    └───Page
+        ├───Admin
+        │       AdminAddBrandPage.js
+        │       AdminAddCategoryPage.js
+        │       AdminAddProductsPage.js
+        │       AdminAddSubCategoryPage.js
+        │       AdminAllOrdersPage.js
+        │       AdminAllProductsPage.js
+        │       AdminOrderDetalisPage.js
+        │
+        ├───Auth
+        │       LoginPage.js
+        │       RigesterPage.js
+        │
+        ├───Brand
+        │       AllBrandPage.js
+        │
+        ├───Cart
+        │       CartPage.js
+        │
+        ├───Category
+        │       AllCategoryPage.js
+        │
+        ├───Checkout
+        │       ChoosePayMethoudPage.js
+        │
+        ├───Home
+        │       HomePage.js
+        │
+        ├───Products
+        │       ProductDetailsPage.js
+        │       ShopProductsPage.js
+        │
+        └───User
+                UserAddAddressPage.js
+                UserAllAddressPage.js
+                UserAllOrdersPage.js
+                UserEditAddressPage.js
+                UserFavoriteProductsPage.js
+                UserProfilePage.js
+
+
+C:\My_Github\ReactJS\Start E-commerce WebSite (Design Only)\ecommerce (main -> origin)
+====================================================================
